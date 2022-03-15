@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://fonts/MochiyPopPOne-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scripts/Win.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.6, 0.6, 0.6, 0.51 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 1 )
+
+[node name="Panel" type="Panel"]
+margin_right = 1920.0
+margin_bottom = 1080.0
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 536.0
+margin_top = 264.0
+margin_right = 1584.0
+margin_bottom = 728.0
+custom_fonts/font = SubResource( 2 )
+text = "Congratulations.
+
+
+Now, to do something you NEED TO, HAVE TO, WANT TO DO other than this."
+align = 1
+valign = 1
+autowrap = true

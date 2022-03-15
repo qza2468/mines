@@ -1,0 +1,39 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 48.0
+margin_top = 24.0
+margin_right = 464.0
+margin_bottom = 272.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 552.0
+margin_top = 296.0
+margin_right = 968.0
+margin_bottom = 544.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 552.0
+margin_top = 24.0
+margin_right = 968.0
+margin_bottom = 272.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 48.0
+margin_top = 304.0
+margin_right = 464.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scripts/MineItem.gd" type="Script" id=1]
+[ext_resource path="res://fonts/MochiyPopPOne-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://styles/item_style.tres" type="StyleBox" id=3]
+[ext_resource path="res://styles/item_pressed_style.tres" type="StyleBox" id=4]
+[ext_resource path="res://styles/item_hover_style.tres" type="StyleBox" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 2 )
+
+[node name="MineItem" type="Button"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
+custom_styles/hover = ExtResource( 5 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = SubResource( 1 )
+button_mask = 3
+expand_icon = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
